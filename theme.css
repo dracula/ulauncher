@@ -1,13 +1,13 @@
 
 /**
- * Overall colors
+ * Dracula colors
  */
 @define-color background #282A36;
+@define-color current_line_background #44475A;
 @define-color foreground #F8F8F2;
 @define-color foreground_lessimportant #585858;
-@define-color accent #CAA9FA;
-@define-color highlight #7CAFC2;
-
+@define-color accent #BD93F9;
+@define-color highlight #8BE9FD;
 
 /**
  * App Window
@@ -30,7 +30,7 @@
   */
  @define-color item_name @foreground;
  @define-color item_text @foreground_lessimportant;
- @define-color item_box_selected @background;
+ @define-color item_box_selected @current_line_background;
  @define-color item_text_selected @accent;
  @define-color item_name_selected @accent;
  @define-color item_shortcut_color @foreground;
